@@ -1,0 +1,104 @@
+
+4. HR Management Application.
+
+Scenario:-
+
+You are managing a database for an HR management system. The system tracks employees, their departments, salaries, and performance reviews. The database includes the following tables: Employees, Departments, PerformanceReviews and Payrolls.
+
+-> Create DataBase:
+
+	CREATE DATABASE dbcompany;
+
+-> Use DataBase:
+
+	USE dbcompany
+
+-> Tables:
+
+	Employees Table:
+		
+	Create Employees Table (Without DepartmentID Foreign Key Initially)		
+		CREATE TABLE Employees (
+    		EmployeeID INT PRIMARY KEY,
+    		FirstName VARCHAR(50) NOT NULL,
+    		LastName VARCHAR(50) NOT NULL,
+    		Email VARCHAR(100) UNIQUE NOT NULL,
+    		Phone VARCHAR(15),
+    		HireDate DATE NOT NULL,
+    		ManagerID INT,
+    		Salary DECIMAL(10, 2) NOT NULL CHECK (Salary > 0),
+    		FOREIGN KEY (ManagerID) REFERENCES Employees(EmployeeID)
+		);
+
+	Deparments Table:
+
+	Create Departments Table
+		CREATE TABLE Departments (
+    		DepartmentID INT PRIMARY KEY,
+    		DepartmentName VARCHAR(100) NOT NULL,
+    		ManagerID INT,
+    		FOREIGN KEY (ManagerID) REFERENCES Employees(EmployeeID)
+		);
+	
+	
+	Alter Employees Table to Add DepartmentID as a Foreign Key
+		ALTER TABLE Employees
+		ADD DepartmentID INT,
+		ADD FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID);
+
+
+	PerformanceReviews Table:
+
+		CREATE TABLE performanceReviews (ReviewID int AUTO_INCREMENT PRIMARY KEY,EmployeeID int,ReviewDate DATE ,PerformanceScore ENUM('Excellent','Good','Average','Poor'),Comments varchar(500),FOREIGN KEY (EmployeeID) REFERENCES employees(EmployeeID));
+
+	Payrolls Table:
+
+		CREATE TABLE PAYROLLS (PayrollID int AUTO_INCREMENT PRIMARY KEY,EmployeeID int,PaymentDate DATE,Amount decimal(10,2),PaymentMethod varchar(100),FOREIGN KEY (EmployeeID) REFERENCES employees (EmployeeID));
+
+
+-> Assignment Queries :-
+
+ 1. Retrieve the names and contact details of employees hired after January 1, 2023.
+
+ - >  SELECT * FROM employees WHERE `HireDate`>'2023-01-01' 
+
+ 2. Find the total payroll amount paid to each department.
+
+ - > SELECT e.DepartmentID,d.DepartmentName,SUM(p.Amount) TotalPayrollAmount FROM payroll p INNER JOIN employees e ON p.EmployeeID=e.EmployeeID INNER JOIN departments d ON e.DepartmentID=d.DepartmentID GROUP BY d.DepartmentID
+
+ 3. List all employees who have not been assigned a manager.
+
+ - > SELECT * FROM employees WHERE ManagerID IS null
+
+4. Retrieve the highest salary in each department along with the employee’s name.
+
+ - > SELECT e.FirstName,e.LastName,MAX(e.Salary),e.DepartmentID,d.DepartmentName FROM employees e INNER JOIN departments d ON e.DepartmentID=d.DepartmentID GROUP BY DepartmentID
+
+ 5. Find the most recent performance review for each employee.
+
+ - > SELECT p.EmployeeID,e.FirstName,e.LastName,MAX(p.ReviewDate)RecentPerformanceReviewDate FROM performancereviews p INNER JOIN employees e ON p.EmployeeID=e.EmployeeID GROUP BY p.EmployeeID
+
+ 6. Count the number of employees in each department.
+
+ - >  SELECT d.DepartmentID,d.DepartmentName,COUNT(e.DepartmentID) NumberOfEmployee FROM employees e INNER JOIN departments d ON e.DepartmentID=d.DepartmentID GROUP BY e.DepartmentID
+
+ 7. List all employees who have received a performance score of "Excellent." 
+
+ - > SELECT e.FirstName,e.LastName,p.PerformanceScore,p.Comments FROM employees e INNER JOIN performancereviews AS p ON e.EmployeeID=p.EmployeeID WHERE p.PerformanceScore="Excellent"
+
+ 8. Identify the most frequently used payment method in payroll.
+
+ - > SELECT PaymentMethod MostFreuentlyPaymentMethod,COUNT(PaymentMethod)NumOfTimes FROM payroll GROUP BY PaymentMethod ORDER BY NumOfTimes DESC LIMIT 1
+
+ 9. Retrieve the top 5 highest-paid employees along with their departments.
+
+ - > SELECT e.EmployeeID,e.FirstName,e.FirstName,e.Phone,e.Salary,d.DepartmentName FROM employees e INNER JOIN departments d ON e.DepartmentID=d.DepartmentID ORDER BY e.Salary DESC LIMIT 5
+
+ 10. Show details of all employees who report directly to a specific manager (e.g., ManagerID = 101)
+
+ - > SELECT EmployeeID,FirstName,LastName,DepartmentID FROM employees WHERE ManagerID = 1
+
+
+
+
+____________________________________________________________________________________________________________________________

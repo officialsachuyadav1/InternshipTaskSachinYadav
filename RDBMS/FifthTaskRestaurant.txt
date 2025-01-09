@@ -1,4 +1,8 @@
-5.Scenario :You are managing a database for a food delivery application like Zomato. The database includes the following tables: Restaurant,Customer,Order,Review and Payment.
+5. RestaurantBase. 
+
+Scenario
+
+You are managing a database for a food delivery application like Zomato. The database includes the following tables: Restaurant,Customer,Order,Review and Payment.
 
 
 -> Create DataBase:

@@ -1,0 +1,115 @@
+ 
+ 2. Ola (a ride-hailing service)
+
+Scenario
+
+You are managing a database for a ride-hailing application like Ola. The database includes the following tables:Drivers, Riders, Rides, Payments.
+
+-> Create DataBase:
+
+	CREATE DATABASE dbuniversity;
+
+-> Use DataBase:
+
+	USE dbuniversity;
+
+-> Tables:
+
+	Drivers Table:
+		CREATE TABLE drivers(DriverID int AUTO_INCREMENT PRIMARY KEY ,FirstName varchar(100),LastName varchar(100),Phone varchar(20),City varchar(100),VehichleType varchar(200),Rating decimal(3,2));
+
+	Insertaion into Table:
+		INSERT INTO drivers (`FirstName`, `LastName`, `Phone`, `City`, `VehichleType`, `Rating`) VALUES ('Sanjay','Siriwas','+918486957321','Indore','Sedan',4.9),('Dev','Sharma','+918989636363','Ashok Nagar','SUV',4.0)
+
+
+
+
+	Riders Table:
+		CREATE TABLE Riders(RiderID int AUTO_INCREMENT PRIMARY KEY,FirstName varchar(100),LastName varchar(100),Phone varchar(20),City varchar(100),JoinDate DATE)
+
+	Insertaion into Table:
+		INSERT INTO Riders (FirstName, LastName, Phone, City, JoinDate) VALUES ('Michael', 'Johnson', '1112223334', 'New York', '2023-01-15'), ('Sarah', 'Lee', '2223334445', 'Los Angeles', '2023-05-10')
+
+
+		
+	Rides Table:
+		CREATE TABLE Rides (RideID int AUTO_INCREMENT PRIMARY KEY,RiderID int,DriverID int,RideDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,PickupLocation varchar(250),DropLocation varchar(250),Distance decimal(10,3),Fare decimal(10,2),RideStatus ENUM('Completed', 'Cancelled', 'Ongoing'),FOREIGN KEY (RiderID) REFERENCES Riders(RiderID),FOREIGN KEY (DriverID) REFERENCES Drivers(DriverID));
+
+	Insertaion into Table:
+		INSERT INTO Rides (RiderID, DriverID, PickupLocation, DropLocation, Distance, Fare, RideStatus) VALUES(1, 2, '123 Main St', '456 Elm St', 12.5, 25.75, 'Completed'), (2, 4, '789 Oak St', '101 Pine St', 8.3, 18.50, 'Ongoing');
+
+
+
+	Payments Table:
+		CREATE TABLE Payments (PaymentID int AUTO_INCREMENT PRIMARY KEY,RideID int,PaymentMethod ENUM('Card', 'Cash', 'Online', 'Wallet'),Amount decimal(10,2),PaymentDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,    FOREIGN KEY (RideID) REFERENCES Rides(RideID));
+
+	Insertaion into Table:
+		INSERT INTO Payments (RideID, PaymentMethod, Amount) VALUES (1, 'Card', 25.75), (2, 'Cash', 18.50); 
+
+
+Assignment Queries : -
+
+1. Retrieve the names and contact details of all drivers with a rating of 4.5 or higher.
+2. Find the total number of rides completed by each driver.
+3. List all riders who have never booked a ride.
+4. Calculate the total earnings of each driver from completed rides.
+5. Retrieve the most recent ride for each rider.
+6. Count the number of rides taken in each city.
+7. List all rides where the distance was greater than 20 km.
+8. Identify the most preferred payment method.
+9. Find the top 3 highest-earning drivers.
+10. Retrieve details of all cancelled rides along with the rider's and driver's names.
+
+
+
+1. Retrieve the names and contact details of all drivers with a rating of 4.5 or higher.
+
+ - > SELECT FirstName,LastName,Phone,Rating FROM drivers WHERE Rating>=4.5
+
+2. Find the total number of rides completed by each driver.
+
+ - > SELECT r.DriverID,d.FirstName,d.LastName,COUNT(r.DriverID) TotalNumberOfRides FROM drivers d INNER JOIN rides r ON d.DriverID=r.DriverID WHERE r.RideStatus="Completed" GROUP BY r.DriverID
+
+3. List all riders who have never booked a ride.
+
+ - > SELECT rd.* FROM riders rd LEFT JOIN rides r ON rd.RiderID=r.RiderID WHERE r.RiderID IS null
+
+4. Calculate the total earnings of each driver from completed rides.
+
+ - > SELECT d.DriverID,d.FirstName,d.LastName,SUM(r.Fare) TotalEarnings FROM drivers d INNER JOIN rides r ON d.DriverID=r.DriverID WHERE r.RideStatus="Completed" GROUP BY r.DriverID
+
+5. Retrieve the most recent ride for each rider.
+
+ - > SELECT rd.RiderID,rd.FirstName,rd.LastName,MAX(r.RideDate) RecentRideBookingDate FROM rides r INNER JOIN riders rd ON r.RiderID=rd.RiderID GROUP BY r.RiderID
+
+6. Count the number of rides taken in each city.
+
+ - > SELECT rd.City,COUNT(r.RiderID) NumOfRides FROM riders rd INNER JOIN rides r ON rd.RiderID=r.RiderID GROUP BY rd.City
+
+7. List all rides where the distance was greater than 20 km.
+
+ - > SELECT * FROM rides WHERE Distance>20
+
+8. Identify the most preferred payment method.
+
+ - > SELECT PaymentMethod MostPreferredPaymentMethod,COUNT(PaymentMethod) NumberOfTimes FROM payments GROUP BY PaymentMethod ORDER BY NumberOfTimes DESC LIMIT 1
+
+9. Find the top 3 highest-earning drivers.
+
+ - > SELECT d.DriverID,d.FirstName,d.LastName,SUM(r.Fare) TotalEarning FROM drivers d INNER JOIN rides r ON r.DriverID=d.DriverID GROUP BY r.DriverID ORDER BY TotalEarning DESC LIMIT 3
+
+10. Retrieve details of all cancelled rides along with the rider's and driver's names.
+
+ - > SELECT rd.RiderID,rd.FirstName RiderName,r.RideID,d.DriverID,d.FirstName DriverName FROM rides r INNER JOIN riders rd ON r.RiderID=rd.RiderID INNER JOIN drivers d ON r.DriverID=d.DriverID WHERE r.RideStatus="Cancelled" 
+
+
+
+
+
+
+
+
+
+
+
+

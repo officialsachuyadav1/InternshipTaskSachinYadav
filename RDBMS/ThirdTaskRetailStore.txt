@@ -1,5 +1,7 @@
-3. The case will be based on a hypothetical business scenario involving a retail store's database.
-    The database contains tables for Customers, Orders, Products, OrderDetails, and Payments.
+
+ 3. RetailStore
+
+The case will be based on a hypothetical business scenario involving a retail store's database.The database contains tables for Customers, Orders, Products, OrderDetails, and Payments.
 
 -> Create DataBase:
 
