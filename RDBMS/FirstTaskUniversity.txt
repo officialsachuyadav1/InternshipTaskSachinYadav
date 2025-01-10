@@ -88,8 +88,16 @@ This assignment will involve queries related to students, courses, departments, 
 	
 	3. Find the Average Grade of Students in Each Course.
 
-	- > SELECT c.course_id,c.course_name,AVG(e.grade) AVG_grade FROM courses c INNER JOIN enrollments e ON c.course_id=e.course_id GROUP BY e.course_id
-
+	- > SELECT en.student_id,Concat(s.first_name ," ", s.last_name) StudentName ,Round(AVG(CASE
+           WHEN grade="A+" THEN 10
+           WHEN grade="A" THEN 9
+           WHEN grade="B" THEN 8
+           WHEN grade="C" THEN 7
+           WHEN grade="D" THEN 6
+           ELSE Null
+           END
+           ),2) AvgGradeOfStuInEachCourses
+           FROM enrollments en INNER JOIN students s ON en.student_id=s.student_id  GROUP BY student_id
 
 	# 4. List All Students Who Have Not Enrolled in Any Courses.
 
@@ -123,7 +131,28 @@ This assignment will involve queries related to students, courses, departments, 
 
 	# 10. Get the Highest and Lowest Grade in a Specific Course (e.g., 'Operating Systems')
 
-	- > SELECT MAX(e.grade) max_grade,c.course_name,MIN(e.grade) min_grade FROM enrollments e INNER JOIN courses c ON e.course_id=c.course_id GROUP BY e.course_id
+	- > SELECT c.course_id,c.course_name,
+	MIN(
+    	CASE
+    	WHEN grade="A+" THEN 10
+    	WHEN grade="A" THEN 9
+    	WHEN grade="B" THEN 8
+    	WHEN grade="C" THEN 7
+    	WHEN grade="D" THEN 6
+    	ELSE Null
+    	END) LowestGrade,
+    MAX(
+        CASE
+        WHEN grade="A+" THEN 10
+    	WHEN grade="A" THEN 9
+    	WHEN grade="B" THEN 8
+    	WHEN grade="C" THEN 7
+    	WHEN grade="D" THEN 6
+    	ELSE Null
+    	END) HighestGrade
+    FROM enrollments en
+    INNER JOIN courses c 
+    ON en.course_id = c.course_id WHERE c.course_name="Introduction to Programming"
 
 
 

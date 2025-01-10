@@ -1,0 +1,66 @@
+Task 1
+
+Quetion: 3. Find the Average Grade of Students in Each Course
+
+
+
+
+SELECT en.student_id,Concat(s.first_name ," ", s.last_name) StudentName ,
+           (CASE
+               WHEN Round(AVG
+          (CASE
+           WHEN grade="A+" THEN 10
+           WHEN grade="A" THEN 9
+           WHEN grade="B" THEN 8
+           WHEN grade="C" THEN 7
+           WHEN grade="D" THEN 6
+           ELSE Null
+           END
+           ),2)>=10 THEN "A+"
+            
+            WHEN Round(AVG
+          (CASE
+           WHEN grade="A+" THEN 10
+           WHEN grade="A" THEN 9
+           WHEN grade="B" THEN 8
+           WHEN grade="C" THEN 7
+           WHEN grade="D" THEN 6
+           ELSE Null
+           END
+           ),2)>=9 THEN "A"
+            
+            WHEN Round(AVG
+          (CASE
+           WHEN grade="A+" THEN 10
+           WHEN grade="A" THEN 9
+           WHEN grade="B" THEN 8
+           WHEN grade="C" THEN 7
+           WHEN grade="D" THEN 6
+           ELSE Null
+           END
+           ),2)>=8 THEN "B"
+            
+            WHEN Round(AVG
+          (CASE
+           WHEN grade="A+" THEN 10
+           WHEN grade="A" THEN 9
+           WHEN grade="B" THEN 8
+           WHEN grade="C" THEN 7
+           WHEN grade="D" THEN 6
+           ELSE Null
+           END
+           ),2)>=7 THEN "C"
+            
+            WHEN Round(AVG
+          (CASE
+           WHEN grade="A+" THEN 10
+           WHEN grade="A" THEN 9
+           WHEN grade="B" THEN 8
+           WHEN grade="C" THEN 7
+           WHEN grade="D" THEN 6
+           ELSE Null
+           END
+           ),2)>=6 THEN "D"
+               ELSE "E"
+           END) AvgGradeOfStuInEachCourses
+           FROM enrollments en INNER JOIN students s ON en.student_id=s.student_id  GROUP BY student_id
