@@ -1,0 +1,125 @@
+6. Doctor-Patient-Appointment System.
+
+Scenario
+
+This scenario involves managing data related to doctors, patients, appointments, specialties, hospital departments and also payment .
+
+
+-> Create DataBase:
+
+	CREATE DATABASE dbhospitalmgt
+
+-> Use DataBase:
+
+	USE dbhospitalmgt
+
+-> Tables:
+
+	- Patient Table:
+
+		-Create Table:
+			CREATE TABLE patients(patient_id int PRIMARY KEY AUTO_INCREMENT,first_mame varchar(100),last_name varchar(100),email varchar(100) UNIQUE NOT null,phone varchar(16),date_of_birth date,gender enum('Male','Female','Other'),address text);
+
+		-Insert Records into Table:
+
+
+
+	- Department Table:
+
+		-Create Table:
+			CREATE TABLE departments(department_id int PRIMARY KEY AUTO_INCREMENT,department_name varchar(100));
+
+		-Insert Records into Table:
+			
+
+
+	- Specialties Table:
+
+		-Create Table:
+			CREATE TABLE specialties(specialty_id int PRIMARY KEY AUTO_INCREMENT,specialty_name varchar(100));
+
+		-Insert Records into Table:
+
+
+
+	- Doctors Table:
+
+		-Create Table:
+			CREATE TABLE doctors(doctor_id int PRIMARY KEY AUTO_INCREMENT,first_mame varchar(100),last_name varchar(100),email varchar(100) UNIQUE NOT null,phone varchar(16),department_id int, specialty_id int,joining_date date,FOREIGN KEY (department_id) REFERENCES departments(department_id),FOREIGN KEY (specialty_id) REFERENCES specialties(specialty_id));
+
+		-Insert Records into Table:
+
+
+
+	- Appointments Table:
+
+		-Create Table:
+			CREATE TABLE appointments(appointment_id int PRIMARY KEY AUTO_INCREMENT,doctor_id int,patient_id int, appointment_date timestamp DEFAULT CURRENT_TIMESTAMP,reason text,status ENUM('Scheduled','Completed','Canelled'),FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id) , FOREIGN KEY (patient_id) REFERENCES patients(patient_id));
+
+
+		-Insert Records into Table:
+
+
+
+	- Payment Table:
+
+		-Create Table:
+			CREATE TABLE payments(payment_id int PRIMARY KEY AUTO_INCREMENT,appointment_id int,payment_date timestamp DEFAULT CURRENT_TIMESTAMP,payment_amount decimal(10,2),payment_method ENUM('Cash','Credit Card','Insurance'),FOREIGN KEY (appointment_id) REFERENCES appointments(appointment_id));
+                       
+                          			
+		-Insert Records into Table:
+
+
+
+
+
+
+# 1. Find the Total Number of Appointments for Each Doctor.
+
+SELECT CONCAT(d.first_mame ," ",d.last_name) DoctorName,COUNT(a.patient_id) NumOfPatient  FROM doctors d INNER JOIN appointments a ON d.doctor_id=a.doctor_id GROUP BY a.doctor_id
+
+
+# 2. List All Patients Who Have an Appointment with a Specific Doctor (e.g., Dr. John Smith)
+
+SELECT p.patient_id,p.first_mame PatientName,a.appointment_id,d.doctor_id,d.first_mame DoctorName FROM patients p INNER JOIN appointments a ON p.patient_id=a.patient_id INNER JOIN doctors d on a.doctor_id=d.doctor_id 
+
+
+# 3. Find the Number of Appointments Scheduled in a Specific Department.
+
+SELECT de.department_id,de.department_name,COUNT(a.doctor_id) NumOfAppointment FROM appointments a INNER JOIN doctors d ON a.doctor_id=d.doctor_id INNER JOIN  departments de ON d.department_id=de.department_id GROUP BY d.department_id 
+
+
+# 4. Find the Most Popular Specialty Based on Number of Appointments
+
+SELECT s.specialty_id,s.specialty_name MostPopularSpecialtyName ,COUNT(a.doctor_id) NumOfAppointment FROM appointments a INNER JOIN doctors d ON a.doctor_id=d.doctor_id INNER JOIN  specialties s ON s.specialty_id=d.specialty_id GROUP BY s.specialty_id ORDER by NumOfAppointment DESC limit 1
+
+
+# 5. Get the Total Payment Amount for All Completed Appointments
+
+SELECT SUM(p.payment_amount) TotalPaymentAmt ,a.status from payments p INNER JOIN appointments a on p.appointment_id=a.appointment_id WHERE a.status="Completed" 
+
+
+# 6. Find the Number of Patients Seen by Each Doctor.
+
+SELECT  a.doctor_id,Concat(d.first_mame," ", d.last_name) DoctorName,COUNT(a.patient_id) NumOfPatient FROM doctors d INNER JOIN appointments a ON d.doctor_id=a.doctor_id GROUP BY a.doctor_id 
+
+
+# 7. List All Patients Who Have Missed Their Appointments (Status 'Cancelled')
+
+SELECT p.patient_id,CONCAT(p.first_mame," ",p.last_name),a.status FROM appointments a INNER JOIN patients p ON a.patient_id=p.patient_id WHERE a.status="Cancelled"
+
+
+# 8. Find the Total Number of Appointments for Each Status (Scheduled, Completed, Cancelled)
+  
+SELECT status,COUNT(appointment_id) TotalNumOfAppoinments FROM appointments GROUP BY status
+
+
+# 9. Get the Average Payment Amount for Completed Appointments
+
+SELECT ROUND(AVG(p.payment_amount),2) AvgPaymentAmtOnStatus , status FROM appointments a INNER JOIN payments p ON a.appointment_id=p.appointment_id WHERE status="Completed"
+
+
+# 10. Find the Doctor with the Highest Number of Appointments.
+
+SELECT a.doctor_id,CONCAT(d.first_mame," ",d.last_name) DoctorName ,COUNT(patient_id) NumOfAppointments FROM appointments a INNER JOIN doctors d ON d.doctor_id=a.doctor_id GROUP BY a.doctor_id ORDER BY COUNT(patient_id) DESC LIMIT 1;
+
