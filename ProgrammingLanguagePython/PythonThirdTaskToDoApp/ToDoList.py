@@ -69,8 +69,41 @@ def update_task(id=0):
         for i in rec:
             print(f"\t\t{i[0]}\t\t{i[2]}\t\t{i[1]}")
         print("_______________________________________________________________________________________________________________________") 
+        print("What you want to update. \n 1. Task \n 2. Status ")
+        task=input("what do you want to perform :  ")
+        if task=='1':
+            tsk = input("Enter task what you want update : ")
+            query="update from todotable where id={}".format(id)
+            cr.execute(query)
+            con.commit()
+            print("\n\t\t\tTask successfully updated!\n")
+            search_id(id)
+        elif task=='2':
+            status=input("Enter status of your this task (e.g. In Progress, Completed, Cancelled )")
+            query="UPDATE `todotable` SET `status` = '{}' WHERE `id` = {};".format(status,id)
+            cr.execute(query)
+            con.commit()
+            print("\n\t\t\tStatus of your task has been successfully updated!\n")
+            search_id(id)
+        else:
+            print("Invalid Input, Please enter valid input.")   
     else:
         print(f"No Task Found at task id {id}!!!")
+
+def search_id(id=0):
+    if id<=0:
+        id=int(input("Enter Task ID: "))
+    query="select * from todotable where id={}".format(id)
+    cr.execute(query)
+    rec=cr.fetchall()
+    if len(rec)>0:
+        print(f"\t\tTaskID\t\tStatus\t\tTask\n" )
+        for i in rec:
+            print(f"\t\t{i[0]}\t\t{i[2]}\t\t{i[1]}")
+        print("_______________________________________________________________________________________________________________________")
+    else:
+        print(f"No Task Found at task id {id}!!!")    
+          
 def delete_task():
     id=int(input("Enter Task ID: "))
     update_task(id)
