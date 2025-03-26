@@ -1,0 +1,501 @@
+Order ID,Order Date,Customer ID,Product Name,Category,Sales Amount,Quantity,Discount,Profit,Region,Customer Segment
+ORD0001,2023-01-24,CUST196,Headphones,Electronics,485.44,2,0.22,-26.33,North,Consumer
+ORD0002,2024-06-02,CUST614,Chair,Furniture,420.07,10,0.26,-33.23,West,Home Office
+ORD0003,2023-05-27,CUST586,Shirt,Clothing,293.37,3,0.2,-29.46,North,Business
+ORD0004,2023-05-30,CUST660,Headphones,Electronics,138.66,2,0.22,-14.42,West,Consumer
+ORD0005,2024-07-15,CUST249,Table,Furniture,239.12,1,0.23,-8.43,West,Home Office
+ORD0006,2023-10-28,CUST220,Smartphone,Electronics,224.92,9,0.2,11.94,East,Home Office
+ORD0007,2024-01-26,CUST166,Printer,Office Supplies,151.07,9,0.13,-2.27,North,Home Office
+ORD0008,2023-04-08,CUST270,Smartphone,Electronics,439.15,8,0.28,-94.45,West,Business
+ORD0009,2024-09-19,CUST310,Laptop,Electronics,259.41,10,0.09,52.0,West,Home Office
+ORD0010,2024-04-08,CUST552,Pen,Office Supplies,489.13,10,0.19,43.67,North,Consumer
+ORD0011,2024-04-23,CUST360,Pen,Office Supplies,426.39,1,0.23,-5.29,West,Consumer
+ORD0012,2023-05-27,CUST689,Smartphone,Electronics,197.75,5,0.28,2.06,West,Consumer
+ORD0013,2024-04-19,CUST116,Shirt,Clothing,366.66,2,0.28,-81.88,West,Consumer
+ORD0014,2023-05-30,CUST997,Printer,Office Supplies,328.41,4,0.2,-0.5,North,Business
+ORD0015,2024-10-30,CUST843,Jeans,Clothing,421.57,2,0.17,44.29,North,Business
+ORD0016,2023-09-04,CUST329,Jacket,Clothing,226.49,1,0.1,16.51,North,Consumer
+ORD0017,2023-04-17,CUST491,Printer,Office Supplies,420.87,5,0.25,-0.95,East,Business
+ORD0018,2023-06-18,CUST875,Jeans,Clothing,263.87,3,0.11,-4.47,South,Home Office
+ORD0019,2023-03-26,CUST932,Notebook,Office Supplies,471.53,9,0.21,-48.51,South,Home Office
+ORD0020,2023-08-12,CUST275,Smartphone,Electronics,261.21,7,0.07,39.57,East,Business
+ORD0021,2023-02-15,CUST602,Smartphone,Electronics,201.33,6,0.27,-8.2,East,Consumer
+ORD0022,2023-02-10,CUST261,Pen,Office Supplies,231.35,4,0.21,6.03,North,Business
+ORD0023,2024-11-18,CUST314,Chair,Furniture,230.64,1,0.28,2.65,West,Home Office
+ORD0024,2024-01-05,CUST811,Headphones,Electronics,367.21,8,0.05,20.54,North,Business
+ORD0025,2024-02-13,CUST955,Bookshelf,Furniture,371.88,2,0.08,20.6,East,Business
+ORD0026,2024-03-04,CUST379,Chair,Furniture,233.21,3,0.11,6.14,West,Home Office
+ORD0027,2024-02-02,CUST818,Notebook,Office Supplies,322.49,7,0.07,52.71,West,Home Office
+ORD0028,2024-04-03,CUST578,Jacket,Clothing,407.57,7,0.13,34.16,North,Home Office
+ORD0029,2023-05-20,CUST831,Jeans,Clothing,301.33,9,0.01,44.7,North,Business
+ORD0030,2023-11-13,CUST769,Jacket,Clothing,167.03,6,0.2,9.41,East,Consumer
+ORD0031,2023-11-23,CUST364,Table,Furniture,201.91,1,0.13,8.05,East,Business
+ORD0032,2024-09-02,CUST858,Printer,Office Supplies,241.89,5,0.07,28.6,East,Consumer
+ORD0033,2023-12-24,CUST310,Shirt,Clothing,187.69,6,0.24,-24.18,North,Consumer
+ORD0034,2023-06-16,CUST864,Jacket,Clothing,405.11,6,0.29,3.89,North,Consumer
+ORD0035,2024-03-11,CUST311,Notebook,Office Supplies,271.94,1,0.12,5.91,South,Business
+ORD0036,2023-03-25,CUST743,Pen,Office Supplies,55.56,7,0.28,-10.19,North,Home Office
+ORD0037,2023-02-28,CUST810,Jeans,Clothing,214.79,6,0.23,-28.8,West,Consumer
+ORD0038,2023-04-09,CUST264,Jacket,Clothing,114.7,2,0.12,-4.1,South,Home Office
+ORD0039,2023-11-07,CUST501,Chair,Furniture,448.06,7,0.15,23.85,West,Business
+ORD0040,2023-12-31,CUST397,Laptop,Electronics,344.09,8,0.08,14.04,North,Consumer
+ORD0041,2024-11-07,CUST432,Smartphone,Electronics,398.21,9,0.29,3.15,East,Home Office
+ORD0042,2024-09-01,CUST578,Chair,Furniture,157.3,9,0.22,-24.92,North,Consumer
+ORD0043,2024-01-16,CUST162,Smartphone,Electronics,69.3,2,0.12,1.94,South,Business
+ORD0044,2024-03-09,CUST961,Shirt,Clothing,199.48,8,0.01,21.03,South,Consumer
+ORD0045,2023-08-03,CUST805,Jacket,Clothing,263.7,10,0.11,47.05,South,Business
+ORD0046,2023-03-23,CUST709,Shirt,Clothing,134.71,4,0.23,-2.59,South,Consumer
+ORD0047,2023-08-02,CUST106,Bookshelf,Furniture,432.47,3,0.13,67.12,West,Home Office
+ORD0048,2024-04-21,CUST880,Pen,Office Supplies,402.92,2,0.07,11.36,North,Business
+ORD0049,2024-02-25,CUST835,Jeans,Clothing,343.58,10,0.16,-27.77,South,Business
+ORD0050,2023-06-04,CUST790,Jacket,Clothing,366.23,3,0.28,-24.92,North,Consumer
+ORD0051,2024-04-03,CUST808,Pen,Office Supplies,232.64,1,0.01,10.55,North,Home Office
+ORD0052,2023-07-08,CUST484,Printer,Office Supplies,465.87,10,0.14,52.95,West,Consumer
+ORD0053,2023-07-11,CUST768,Shirt,Clothing,53.58,5,0.14,5.73,West,Consumer
+ORD0054,2024-09-21,CUST487,Headphones,Electronics,132.83,5,0.14,4.99,North,Home Office
+ORD0055,2023-06-24,CUST343,Chair,Furniture,281.83,6,0.1,38.95,North,Consumer
+ORD0056,2023-11-26,CUST837,Table,Furniture,387.09,1,0.09,19.98,North,Consumer
+ORD0057,2023-07-08,CUST782,Pen,Office Supplies,430.81,3,0.2,13.12,South,Business
+ORD0058,2024-06-18,CUST716,Shirt,Clothing,456.12,6,0.07,104.62,South,Consumer
+ORD0059,2023-01-02,CUST128,Smartphone,Electronics,393.96,5,0.19,30.34,North,Business
+ORD0060,2024-11-07,CUST165,Laptop,Electronics,404.59,6,0.21,-63.19,West,Business
+ORD0061,2023-03-08,CUST274,Smartphone,Electronics,61.64,5,0.27,0.42,East,Business
+ORD0062,2024-08-14,CUST288,Printer,Office Supplies,145.89,4,0.0,14.54,West,Consumer
+ORD0063,2024-03-17,CUST399,Table,Furniture,118.18,1,0.07,8.35,East,Home Office
+ORD0064,2024-04-25,CUST529,Chair,Furniture,488.64,4,0.18,43.77,North,Business
+ORD0065,2023-06-21,CUST975,Pen,Office Supplies,313.04,7,0.22,24.73,North,Consumer
+ORD0066,2023-05-05,CUST484,Table,Furniture,197.76,6,0.27,-37.66,East,Consumer
+ORD0067,2023-10-06,CUST547,Smartphone,Electronics,54.71,8,0.21,2.12,East,Business
+ORD0068,2024-06-10,CUST397,Jacket,Clothing,50.71,5,0.16,2.17,West,Home Office
+ORD0069,2024-09-07,CUST403,Table,Furniture,161.16,5,0.17,15.1,South,Home Office
+ORD0070,2024-09-26,CUST324,Bookshelf,Furniture,123.33,7,0.12,-5.4,West,Consumer
+ORD0071,2023-01-13,CUST729,Jacket,Clothing,312.79,4,0.14,-2.58,North,Home Office
+ORD0072,2023-07-16,CUST843,Smartphone,Electronics,431.7,10,0.26,-81.36,North,Consumer
+ORD0073,2024-03-04,CUST572,Headphones,Electronics,468.95,9,0.08,-7.06,North,Consumer
+ORD0074,2024-02-14,CUST287,Jacket,Clothing,403.54,6,0.2,35.22,South,Business
+ORD0075,2023-09-09,CUST607,Laptop,Electronics,361.44,2,0.03,73.36,West,Business
+ORD0076,2024-04-11,CUST996,Notebook,Office Supplies,350.57,9,0.26,-12.74,West,Home Office
+ORD0077,2024-03-26,CUST738,Laptop,Electronics,472.42,1,0.15,40.63,East,Home Office
+ORD0078,2024-09-02,CUST796,Smartphone,Electronics,65.26,6,0.08,10.29,West,Home Office
+ORD0079,2024-08-19,CUST238,Chair,Furniture,344.02,1,0.28,-27.54,East,Home Office
+ORD0080,2024-01-19,CUST427,Jacket,Clothing,297.68,6,0.06,27.08,East,Consumer
+ORD0081,2024-08-30,CUST208,Jacket,Clothing,488.95,8,0.24,-80.85,North,Business
+ORD0082,2024-07-21,CUST885,Smartphone,Electronics,324.48,6,0.03,79.6,North,Consumer
+ORD0083,2023-08-06,CUST778,Notebook,Office Supplies,419.87,9,0.07,6.41,East,Home Office
+ORD0084,2023-09-13,CUST613,Jacket,Clothing,447.23,1,0.2,13.72,South,Home Office
+ORD0085,2023-08-19,CUST557,Jeans,Clothing,454.77,10,0.25,-28.48,North,Consumer
+ORD0086,2023-06-30,CUST291,Bookshelf,Furniture,294.09,4,0.09,-1.59,East,Business
+ORD0087,2024-04-20,CUST205,Printer,Office Supplies,197.22,5,0.12,22.03,North,Consumer
+ORD0088,2024-08-03,CUST797,Smartphone,Electronics,257.93,2,0.22,-42.63,South,Consumer
+ORD0089,2024-08-08,CUST205,Chair,Furniture,424.42,10,0.28,-72.13,South,Business
+ORD0090,2024-03-20,CUST330,Jacket,Clothing,56.55,10,0.12,10.03,South,Consumer
+ORD0091,2024-10-12,CUST722,Smartphone,Electronics,130.72,8,0.24,-2.91,North,Consumer
+ORD0092,2023-03-10,CUST505,Bookshelf,Furniture,105.69,1,0.28,-2.34,West,Consumer
+ORD0093,2023-10-13,CUST954,Shirt,Clothing,433.79,9,0.17,-12.09,South,Home Office
+ORD0094,2024-11-04,CUST847,Bookshelf,Furniture,200.32,5,0.29,-8.1,West,Home Office
+ORD0095,2024-03-27,CUST653,Headphones,Electronics,385.7,3,0.2,-20.02,West,Business
+ORD0096,2024-09-13,CUST792,Pen,Office Supplies,301.17,5,0.04,77.17,North,Business
+ORD0097,2024-08-02,CUST188,Printer,Office Supplies,313.83,6,0.21,-42.94,North,Consumer
+ORD0098,2024-12-18,CUST624,Printer,Office Supplies,255.75,1,0.22,-25.31,South,Business
+ORD0099,2023-11-15,CUST158,Jacket,Clothing,99.73,9,0.3,-15.62,West,Home Office
+ORD0100,2024-12-21,CUST550,Chair,Furniture,371.12,5,0.15,29.33,East,Home Office
+ORD0101,2024-02-08,CUST160,Chair,Furniture,411.21,2,0.15,-15.76,North,Consumer
+ORD0102,2023-11-17,CUST437,Notebook,Office Supplies,375.69,7,0.26,-39.15,West,Home Office
+ORD0103,2023-07-28,CUST938,Shirt,Clothing,204.01,9,0.04,3.46,South,Business
+ORD0104,2024-02-10,CUST142,Printer,Office Supplies,321.93,8,0.29,-21.65,South,Consumer
+ORD0105,2024-01-02,CUST279,Headphones,Electronics,281.25,2,0.29,-61.33,South,Consumer
+ORD0106,2024-10-19,CUST539,Jeans,Clothing,121.12,9,0.01,33.63,West,Business
+ORD0107,2023-08-28,CUST661,Printer,Office Supplies,247.8,1,0.05,56.8,West,Home Office
+ORD0108,2023-03-23,CUST330,Pen,Office Supplies,201.85,5,0.01,13.6,North,Home Office
+ORD0109,2024-02-20,CUST329,Jeans,Clothing,145.98,3,0.23,-22.79,South,Business
+ORD0110,2023-05-07,CUST330,Chair,Furniture,206.5,9,0.14,13.22,West,Consumer
+ORD0111,2023-10-27,CUST706,Headphones,Electronics,363.1,7,0.14,51.26,North,Consumer
+ORD0112,2024-02-24,CUST423,Bookshelf,Furniture,323.95,9,0.25,-64.59,East,Business
+ORD0113,2024-04-14,CUST473,Smartphone,Electronics,302.56,9,0.18,14.99,West,Home Office
+ORD0114,2023-07-20,CUST177,Printer,Office Supplies,208.99,7,0.06,-0.53,East,Home Office
+ORD0115,2024-08-12,CUST505,Bookshelf,Furniture,283.69,3,0.03,49.13,West,Business
+ORD0116,2023-10-09,CUST786,Notebook,Office Supplies,364.99,5,0.15,-34.5,West,Home Office
+ORD0117,2024-04-01,CUST782,Shirt,Clothing,369.63,7,0.23,-48.17,West,Home Office
+ORD0118,2023-04-30,CUST365,Smartphone,Electronics,75.83,9,0.18,-2.14,West,Business
+ORD0119,2023-05-02,CUST856,Smartphone,Electronics,133.17,10,0.02,27.42,South,Home Office
+ORD0120,2024-01-20,CUST761,Jacket,Clothing,470.98,7,0.26,-35.74,North,Home Office
+ORD0121,2024-03-11,CUST380,Printer,Office Supplies,312.28,8,0.01,78.97,East,Business
+ORD0122,2023-12-19,CUST423,Notebook,Office Supplies,337.37,8,0.2,26.98,East,Consumer
+ORD0123,2023-01-13,CUST542,Notebook,Office Supplies,302.34,3,0.03,66.74,East,Home Office
+ORD0124,2024-12-22,CUST438,Shirt,Clothing,384.63,9,0.18,-22.18,East,Consumer
+ORD0125,2024-02-01,CUST985,Jeans,Clothing,144.85,9,0.24,-15.89,West,Home Office
+ORD0126,2023-08-22,CUST387,Laptop,Electronics,461.94,5,0.29,-67.64,West,Business
+ORD0127,2024-03-12,CUST498,Jacket,Clothing,323.99,1,0.25,-27.67,East,Home Office
+ORD0128,2023-10-17,CUST711,Shirt,Clothing,439.43,7,0.16,-23.28,West,Consumer
+ORD0129,2023-06-03,CUST180,Table,Furniture,305.75,8,0.17,-24.88,West,Home Office
+ORD0130,2024-03-19,CUST242,Pen,Office Supplies,227.23,4,0.1,39.33,South,Business
+ORD0131,2024-11-24,CUST728,Jacket,Clothing,50.27,4,0.1,-1.02,South,Business
+ORD0132,2023-06-12,CUST457,Printer,Office Supplies,118.19,1,0.1,19.2,South,Consumer
+ORD0133,2024-05-28,CUST962,Bookshelf,Furniture,147.97,1,0.25,3.35,East,Business
+ORD0134,2024-11-18,CUST602,Jeans,Clothing,309.33,8,0.27,-20.17,North,Business
+ORD0135,2024-07-14,CUST840,Smartphone,Electronics,95.54,2,0.12,2.54,South,Business
+ORD0136,2024-12-29,CUST498,Headphones,Electronics,282.41,9,0.12,23.75,West,Home Office
+ORD0137,2024-09-02,CUST383,Table,Furniture,247.79,2,0.28,-50.13,North,Consumer
+ORD0138,2024-01-25,CUST963,Laptop,Electronics,317.44,1,0.13,48.21,West,Consumer
+ORD0139,2024-08-22,CUST784,Shirt,Clothing,306.01,5,0.24,0.7,East,Home Office
+ORD0140,2024-02-05,CUST319,Laptop,Electronics,259.94,6,0.26,-40.53,East,Consumer
+ORD0141,2024-07-18,CUST701,Jacket,Clothing,361.92,9,0.23,7.67,North,Consumer
+ORD0142,2024-05-17,CUST639,Table,Furniture,195.68,10,0.11,15.8,North,Business
+ORD0143,2023-08-24,CUST673,Shirt,Clothing,352.02,10,0.21,2.23,South,Home Office
+ORD0144,2024-12-23,CUST279,Smartphone,Electronics,159.5,5,0.21,-16.62,South,Home Office
+ORD0145,2023-01-05,CUST533,Table,Furniture,296.46,9,0.05,62.27,South,Business
+ORD0146,2023-12-04,CUST584,Chair,Furniture,443.94,4,0.05,23.26,South,Home Office
+ORD0147,2023-06-08,CUST917,Shirt,Clothing,110.44,4,0.06,23.39,East,Business
+ORD0148,2024-08-02,CUST236,Printer,Office Supplies,475.81,4,0.14,-37.83,East,Consumer
+ORD0149,2023-08-11,CUST139,Printer,Office Supplies,211.55,3,0.02,30.08,West,Consumer
+ORD0150,2024-05-17,CUST581,Table,Furniture,249.13,6,0.05,25.33,West,Home Office
+ORD0151,2023-01-05,CUST712,Jacket,Clothing,149.22,5,0.11,18.43,South,Business
+ORD0152,2023-06-08,CUST601,Headphones,Electronics,185.67,9,0.18,-0.86,North,Business
+ORD0153,2024-08-25,CUST941,Bookshelf,Furniture,436.0,4,0.28,-21.42,South,Business
+ORD0154,2023-06-09,CUST865,Notebook,Office Supplies,52.37,6,0.22,-6.79,South,Home Office
+ORD0155,2024-02-07,CUST229,Jacket,Clothing,375.33,5,0.14,47.49,North,Home Office
+ORD0156,2024-09-28,CUST229,Pen,Office Supplies,185.31,10,0.11,-3.35,South,Consumer
+ORD0157,2023-11-14,CUST706,Jeans,Clothing,174.24,9,0.02,6.88,West,Consumer
+ORD0158,2024-10-30,CUST816,Jacket,Clothing,195.6,3,0.25,-17.09,North,Consumer
+ORD0159,2023-09-11,CUST907,Table,Furniture,329.26,7,0.01,50.84,East,Business
+ORD0160,2023-01-16,CUST302,Jacket,Clothing,268.6,10,0.04,60.91,West,Consumer
+ORD0161,2023-11-22,CUST544,Notebook,Office Supplies,343.23,5,0.01,36.21,West,Home Office
+ORD0162,2024-07-22,CUST334,Headphones,Electronics,54.23,10,0.05,12.51,West,Home Office
+ORD0163,2023-01-15,CUST731,Notebook,Office Supplies,105.35,4,0.11,-1.32,South,Home Office
+ORD0164,2024-07-19,CUST275,Laptop,Electronics,318.64,7,0.24,-22.7,West,Home Office
+ORD0165,2024-10-20,CUST473,Jacket,Clothing,120.8,8,0.25,-15.98,East,Business
+ORD0166,2024-06-02,CUST627,Laptop,Electronics,426.71,1,0.24,19.86,South,Home Office
+ORD0167,2023-01-24,CUST815,Table,Furniture,412.82,2,0.01,61.69,South,Business
+ORD0168,2024-08-12,CUST717,Shirt,Clothing,373.82,5,0.05,62.24,South,Consumer
+ORD0169,2024-06-23,CUST921,Table,Furniture,245.64,5,0.1,0.82,West,Home Office
+ORD0170,2023-02-26,CUST582,Chair,Furniture,72.62,3,0.02,3.8,North,Business
+ORD0171,2024-07-06,CUST504,Pen,Office Supplies,420.85,2,0.22,-65.06,South,Home Office
+ORD0172,2023-05-21,CUST847,Chair,Furniture,383.58,10,0.22,29.05,North,Consumer
+ORD0173,2023-07-16,CUST710,Notebook,Office Supplies,389.62,5,0.08,84.47,North,Consumer
+ORD0174,2024-04-25,CUST525,Notebook,Office Supplies,271.4,8,0.05,54.89,East,Business
+ORD0175,2024-01-31,CUST822,Jacket,Clothing,222.51,10,0.12,10.53,North,Consumer
+ORD0176,2023-08-16,CUST718,Chair,Furniture,173.32,10,0.2,-0.28,East,Consumer
+ORD0177,2024-03-20,CUST784,Pen,Office Supplies,426.36,9,0.26,-11.39,West,Home Office
+ORD0178,2024-01-01,CUST378,Printer,Office Supplies,162.16,9,0.18,-20.72,West,Consumer
+ORD0179,2023-06-26,CUST159,Headphones,Electronics,296.37,9,0.15,10.35,West,Consumer
+ORD0180,2024-05-21,CUST677,Pen,Office Supplies,129.89,5,0.23,1.63,North,Business
+ORD0181,2024-08-19,CUST743,Shirt,Clothing,88.23,9,0.09,15.21,West,Business
+ORD0182,2024-03-01,CUST744,Chair,Furniture,363.23,8,0.07,42.26,South,Consumer
+ORD0183,2023-10-15,CUST446,Bookshelf,Furniture,465.57,1,0.07,41.24,West,Home Office
+ORD0184,2023-03-27,CUST482,Printer,Office Supplies,52.63,1,0.09,2.12,West,Consumer
+ORD0185,2023-07-08,CUST810,Smartphone,Electronics,230.64,6,0.03,37.27,East,Consumer
+ORD0186,2024-07-14,CUST500,Jeans,Clothing,313.67,4,0.22,-43.72,North,Consumer
+ORD0187,2023-03-17,CUST446,Smartphone,Electronics,430.01,1,0.04,59.54,West,Home Office
+ORD0188,2023-09-22,CUST395,Printer,Office Supplies,369.79,4,0.24,-67.82,West,Consumer
+ORD0189,2024-10-14,CUST143,Shirt,Clothing,389.54,3,0.03,60.08,North,Business
+ORD0190,2024-06-15,CUST541,Bookshelf,Furniture,79.52,5,0.26,-7.59,East,Business
+ORD0191,2023-03-05,CUST872,Notebook,Office Supplies,434.31,5,0.07,53.55,North,Consumer
+ORD0192,2024-07-26,CUST922,Bookshelf,Furniture,459.64,6,0.21,-0.34,East,Home Office
+ORD0193,2024-02-23,CUST112,Shirt,Clothing,380.48,2,0.15,-31.11,South,Consumer
+ORD0194,2024-01-17,CUST496,Bookshelf,Furniture,170.21,10,0.22,-17.59,South,Business
+ORD0195,2023-04-02,CUST924,Headphones,Electronics,96.6,10,0.18,-8.13,South,Home Office
+ORD0196,2023-09-10,CUST450,Printer,Office Supplies,265.01,4,0.14,9.52,North,Consumer
+ORD0197,2023-05-15,CUST878,Smartphone,Electronics,90.26,5,0.01,13.42,West,Home Office
+ORD0198,2024-02-29,CUST231,Jacket,Clothing,99.68,8,0.02,10.12,West,Consumer
+ORD0199,2023-07-29,CUST833,Bookshelf,Furniture,187.92,3,0.21,-6.58,West,Consumer
+ORD0200,2023-11-20,CUST370,Notebook,Office Supplies,80.93,1,0.11,0.93,West,Consumer
+ORD0201,2023-01-05,CUST702,Headphones,Electronics,314.45,4,0.01,49.3,North,Business
+ORD0202,2024-03-28,CUST576,Headphones,Electronics,298.51,6,0.03,59.59,North,Consumer
+ORD0203,2023-08-26,CUST371,Laptop,Electronics,317.5,10,0.25,-35.04,South,Business
+ORD0204,2023-05-28,CUST219,Bookshelf,Furniture,102.13,5,0.1,18.15,North,Business
+ORD0205,2023-01-25,CUST416,Laptop,Electronics,199.15,10,0.01,56.56,South,Business
+ORD0206,2024-06-10,CUST127,Shirt,Clothing,75.07,3,0.12,1.0,South,Home Office
+ORD0207,2024-11-22,CUST197,Chair,Furniture,106.17,8,0.04,23.64,North,Consumer
+ORD0208,2023-04-28,CUST945,Laptop,Electronics,148.57,10,0.09,-5.63,West,Business
+ORD0209,2024-09-13,CUST707,Printer,Office Supplies,221.11,5,0.15,16.54,South,Home Office
+ORD0210,2024-08-18,CUST610,Laptop,Electronics,170.99,10,0.12,-10.22,East,Home Office
+ORD0211,2023-09-27,CUST334,Jeans,Clothing,155.76,5,0.23,-3.72,West,Business
+ORD0212,2023-12-03,CUST563,Jeans,Clothing,65.59,2,0.26,-2.47,South,Home Office
+ORD0213,2024-03-04,CUST774,Jeans,Clothing,287.69,6,0.1,54.45,West,Consumer
+ORD0214,2023-01-24,CUST304,Laptop,Electronics,466.66,2,0.22,-10.37,North,Business
+ORD0215,2023-12-11,CUST803,Smartphone,Electronics,281.03,10,0.27,-26.27,West,Consumer
+ORD0216,2024-06-07,CUST698,Jacket,Clothing,494.69,7,0.02,132.53,South,Consumer
+ORD0217,2024-02-24,CUST126,Printer,Office Supplies,303.78,3,0.25,-1.84,West,Consumer
+ORD0218,2023-03-18,CUST993,Table,Furniture,455.66,10,0.26,-44.6,West,Home Office
+ORD0219,2023-08-17,CUST937,Pen,Office Supplies,74.38,10,0.18,-9.06,West,Home Office
+ORD0220,2023-09-30,CUST519,Table,Furniture,83.98,2,0.01,7.25,South,Home Office
+ORD0221,2023-08-07,CUST957,Notebook,Office Supplies,310.63,3,0.2,-35.63,South,Consumer
+ORD0222,2024-05-14,CUST207,Jacket,Clothing,77.36,9,0.25,-12.98,South,Business
+ORD0223,2023-06-19,CUST712,Chair,Furniture,387.78,3,0.0,32.59,South,Home Office
+ORD0224,2023-05-30,CUST372,Jeans,Clothing,100.77,6,0.22,-13.51,North,Consumer
+ORD0225,2024-11-18,CUST203,Printer,Office Supplies,254.01,3,0.15,-22.6,North,Business
+ORD0226,2023-05-29,CUST467,Bookshelf,Furniture,197.75,6,0.13,19.67,North,Consumer
+ORD0227,2023-01-04,CUST284,Shirt,Clothing,59.51,2,0.23,1.48,South,Consumer
+ORD0228,2024-10-30,CUST222,Headphones,Electronics,402.85,2,0.18,-2.3,West,Business
+ORD0229,2023-02-02,CUST494,Jacket,Clothing,471.94,1,0.04,42.81,West,Consumer
+ORD0230,2024-05-01,CUST969,Jeans,Clothing,309.39,7,0.03,12.09,West,Business
+ORD0231,2023-09-27,CUST970,Bookshelf,Furniture,253.22,5,0.17,-29.57,East,Home Office
+ORD0232,2023-07-04,CUST975,Table,Furniture,473.94,3,0.28,-55.76,North,Consumer
+ORD0233,2023-02-01,CUST260,Pen,Office Supplies,325.49,8,0.24,-51.41,South,Business
+ORD0234,2024-03-03,CUST546,Jacket,Clothing,170.36,1,0.24,-2.83,West,Business
+ORD0235,2024-04-24,CUST455,Shirt,Clothing,136.92,1,0.13,0.68,South,Business
+ORD0236,2023-07-31,CUST366,Chair,Furniture,153.59,10,0.03,37.74,East,Consumer
+ORD0237,2023-03-26,CUST785,Smartphone,Electronics,289.25,4,0.17,-34.38,East,Home Office
+ORD0238,2024-07-08,CUST107,Pen,Office Supplies,93.09,2,0.22,-12.33,North,Consumer
+ORD0239,2024-01-28,CUST163,Chair,Furniture,63.82,6,0.05,15.5,East,Home Office
+ORD0240,2024-01-06,CUST211,Jacket,Clothing,320.88,1,0.14,0.0,North,Business
+ORD0241,2024-03-01,CUST464,Shirt,Clothing,96.91,1,0.04,21.94,North,Consumer
+ORD0242,2024-10-28,CUST280,Bookshelf,Furniture,195.67,10,0.21,-11.27,East,Business
+ORD0243,2023-08-24,CUST341,Shirt,Clothing,361.41,2,0.21,-11.3,South,Consumer
+ORD0244,2024-06-30,CUST243,Chair,Furniture,445.82,5,0.18,-33.86,West,Business
+ORD0245,2023-09-19,CUST197,Chair,Furniture,367.06,10,0.21,-46.79,West,Home Office
+ORD0246,2024-09-14,CUST284,Table,Furniture,489.69,5,0.02,87.42,West,Business
+ORD0247,2023-07-10,CUST472,Laptop,Electronics,284.55,5,0.16,2.75,East,Home Office
+ORD0248,2024-09-22,CUST511,Jeans,Clothing,139.62,2,0.26,-2.72,West,Business
+ORD0249,2024-04-19,CUST449,Table,Furniture,217.08,7,0.03,10.36,North,Home Office
+ORD0250,2023-04-12,CUST855,Laptop,Electronics,413.73,1,0.08,50.92,South,Consumer
+ORD0251,2024-10-08,CUST629,Jacket,Clothing,424.82,6,0.16,-15.2,South,Consumer
+ORD0252,2023-01-05,CUST996,Jacket,Clothing,106.5,7,0.26,-18.32,South,Consumer
+ORD0253,2024-07-06,CUST731,Laptop,Electronics,391.88,6,0.27,11.13,South,Business
+ORD0254,2023-03-18,CUST187,Printer,Office Supplies,409.09,5,0.27,-67.44,North,Consumer
+ORD0255,2024-11-08,CUST565,Printer,Office Supplies,380.48,2,0.06,80.62,South,Home Office
+ORD0256,2023-04-19,CUST727,Pen,Office Supplies,224.15,7,0.12,-7.16,North,Home Office
+ORD0257,2024-01-15,CUST521,Smartphone,Electronics,328.43,5,0.13,28.41,South,Home Office
+ORD0258,2023-07-06,CUST636,Notebook,Office Supplies,383.98,8,0.06,1.32,West,Business
+ORD0259,2024-02-27,CUST990,Printer,Office Supplies,377.84,3,0.29,-55.38,East,Business
+ORD0260,2024-11-28,CUST216,Jacket,Clothing,62.92,2,0.24,3.46,East,Consumer
+ORD0261,2024-10-13,CUST715,Bookshelf,Furniture,476.28,8,0.04,62.11,East,Consumer
+ORD0262,2024-03-24,CUST193,Pen,Office Supplies,72.7,10,0.06,12.52,West,Consumer
+ORD0263,2024-12-18,CUST298,Bookshelf,Furniture,429.36,4,0.24,-65.59,East,Consumer
+ORD0264,2024-12-31,CUST261,Smartphone,Electronics,245.76,4,0.28,-51.25,North,Home Office
+ORD0265,2024-07-07,CUST315,Bookshelf,Furniture,464.96,4,0.05,29.8,South,Consumer
+ORD0266,2024-12-02,CUST655,Bookshelf,Furniture,410.02,3,0.08,64.16,North,Home Office
+ORD0267,2024-03-03,CUST154,Jacket,Clothing,345.19,10,0.3,-33.09,North,Business
+ORD0268,2023-10-23,CUST705,Headphones,Electronics,79.02,10,0.01,15.81,East,Business
+ORD0269,2024-03-14,CUST883,Printer,Office Supplies,407.42,5,0.08,-10.76,North,Consumer
+ORD0270,2024-09-17,CUST810,Laptop,Electronics,457.47,4,0.25,-59.88,North,Consumer
+ORD0271,2024-07-03,CUST126,Table,Furniture,259.25,1,0.19,-25.92,South,Consumer
+ORD0272,2023-11-07,CUST425,Pen,Office Supplies,272.14,7,0.23,-42.62,East,Home Office
+ORD0273,2024-10-04,CUST123,Notebook,Office Supplies,211.36,1,0.01,22.09,South,Home Office
+ORD0274,2023-01-10,CUST323,Printer,Office Supplies,285.67,3,0.16,-25.63,North,Home Office
+ORD0275,2023-06-30,CUST798,Jacket,Clothing,265.81,9,0.22,-29.8,East,Business
+ORD0276,2023-03-19,CUST198,Table,Furniture,104.42,5,0.26,-15.18,West,Home Office
+ORD0277,2023-12-24,CUST953,Shirt,Clothing,94.61,2,0.24,-7.79,North,Business
+ORD0278,2024-10-10,CUST213,Chair,Furniture,435.36,2,0.07,-2.74,South,Consumer
+ORD0279,2024-11-29,CUST786,Laptop,Electronics,194.46,3,0.26,-28.61,West,Home Office
+ORD0280,2024-02-28,CUST429,Smartphone,Electronics,404.85,6,0.09,37.55,East,Consumer
+ORD0281,2024-10-25,CUST546,Notebook,Office Supplies,200.13,10,0.24,-8.04,South,Home Office
+ORD0282,2024-11-12,CUST471,Smartphone,Electronics,62.72,5,0.12,1.15,South,Home Office
+ORD0283,2024-01-06,CUST703,Bookshelf,Furniture,372.38,1,0.19,-25.99,East,Business
+ORD0284,2024-06-09,CUST992,Bookshelf,Furniture,405.65,8,0.25,1.42,West,Home Office
+ORD0285,2023-06-18,CUST156,Jeans,Clothing,323.64,4,0.22,23.15,East,Business
+ORD0286,2023-01-01,CUST241,Smartphone,Electronics,317.3,4,0.27,-24.22,East,Business
+ORD0287,2023-04-29,CUST500,Headphones,Electronics,433.06,7,0.21,-7.43,West,Home Office
+ORD0288,2023-05-23,CUST225,Jeans,Clothing,467.15,6,0.14,8.65,North,Consumer
+ORD0289,2024-06-14,CUST558,Table,Furniture,137.85,7,0.21,1.5,South,Business
+ORD0290,2023-04-20,CUST515,Shirt,Clothing,218.4,6,0.23,-17.4,South,Home Office
+ORD0291,2023-09-11,CUST666,Smartphone,Electronics,326.22,1,0.23,-38.83,East,Home Office
+ORD0292,2023-12-18,CUST965,Headphones,Electronics,349.62,9,0.24,-19.43,South,Home Office
+ORD0293,2023-07-02,CUST441,Pen,Office Supplies,139.67,3,0.12,12.12,East,Consumer
+ORD0294,2023-11-07,CUST621,Smartphone,Electronics,263.05,4,0.17,1.55,North,Consumer
+ORD0295,2024-04-15,CUST205,Shirt,Clothing,58.94,4,0.18,-1.41,East,Home Office
+ORD0296,2024-08-20,CUST371,Notebook,Office Supplies,186.52,8,0.15,-0.54,South,Business
+ORD0297,2024-07-12,CUST619,Printer,Office Supplies,491.21,6,0.1,4.47,East,Home Office
+ORD0298,2023-11-04,CUST962,Table,Furniture,199.98,10,0.11,5.63,North,Home Office
+ORD0299,2024-11-14,CUST189,Printer,Office Supplies,147.06,7,0.11,10.34,West,Business
+ORD0300,2024-08-02,CUST160,Bookshelf,Furniture,414.67,1,0.08,27.21,East,Consumer
+ORD0301,2023-08-02,CUST799,Table,Furniture,357.25,10,0.1,66.42,West,Business
+ORD0302,2024-10-16,CUST921,Bookshelf,Furniture,87.55,9,0.06,17.8,West,Business
+ORD0303,2024-11-05,CUST734,Jacket,Clothing,398.3,9,0.06,25.25,East,Consumer
+ORD0304,2023-09-22,CUST149,Laptop,Electronics,280.04,4,0.1,39.43,South,Consumer
+ORD0305,2024-12-17,CUST165,Pen,Office Supplies,357.59,8,0.22,-14.88,South,Business
+ORD0306,2024-11-09,CUST325,Jacket,Clothing,52.72,4,0.15,-4.31,West,Home Office
+ORD0307,2023-02-28,CUST798,Notebook,Office Supplies,70.53,9,0.0,21.1,North,Consumer
+ORD0308,2024-05-30,CUST568,Bookshelf,Furniture,292.54,10,0.3,-25.58,West,Business
+ORD0309,2023-06-19,CUST266,Table,Furniture,368.2,10,0.06,40.38,North,Home Office
+ORD0310,2024-11-25,CUST426,Smartphone,Electronics,280.85,7,0.06,27.39,South,Home Office
+ORD0311,2024-03-07,CUST973,Notebook,Office Supplies,400.6,9,0.21,20.93,West,Home Office
+ORD0312,2023-03-11,CUST145,Smartphone,Electronics,311.16,7,0.07,49.93,North,Home Office
+ORD0313,2023-02-07,CUST162,Laptop,Electronics,476.59,8,0.14,44.13,East,Consumer
+ORD0314,2024-08-10,CUST565,Chair,Furniture,198.36,2,0.04,10.74,West,Business
+ORD0315,2024-08-23,CUST286,Shirt,Clothing,239.84,8,0.24,-42.5,North,Business
+ORD0316,2024-10-23,CUST394,Smartphone,Electronics,75.29,4,0.12,12.11,East,Consumer
+ORD0317,2023-12-11,CUST573,Jeans,Clothing,224.84,2,0.16,8.42,West,Home Office
+ORD0318,2023-02-06,CUST426,Pen,Office Supplies,52.33,5,0.09,3.89,East,Home Office
+ORD0319,2023-06-20,CUST243,Chair,Furniture,319.71,10,0.11,-9.6,West,Consumer
+ORD0320,2023-05-17,CUST544,Printer,Office Supplies,160.2,5,0.02,34.24,South,Business
+ORD0321,2023-08-24,CUST896,Printer,Office Supplies,424.5,8,0.13,53.46,North,Consumer
+ORD0322,2024-05-20,CUST885,Pen,Office Supplies,76.5,3,0.13,3.0,East,Home Office
+ORD0323,2024-01-18,CUST579,Pen,Office Supplies,331.89,4,0.22,14.31,South,Business
+ORD0324,2024-10-26,CUST940,Jacket,Clothing,498.69,2,0.04,80.25,North,Consumer
+ORD0325,2023-04-16,CUST826,Chair,Furniture,59.67,7,0.03,7.48,West,Home Office
+ORD0326,2024-10-31,CUST932,Bookshelf,Furniture,58.45,9,0.14,-3.36,North,Business
+ORD0327,2023-08-02,CUST960,Smartphone,Electronics,298.74,2,0.1,34.1,North,Consumer
+ORD0328,2023-08-05,CUST820,Pen,Office Supplies,388.47,3,0.23,-12.96,West,Consumer
+ORD0329,2024-12-10,CUST586,Jeans,Clothing,155.3,3,0.1,18.68,West,Consumer
+ORD0330,2024-08-31,CUST545,Chair,Furniture,271.79,4,0.25,-26.3,North,Consumer
+ORD0331,2024-10-27,CUST971,Smartphone,Electronics,271.49,8,0.16,-3.12,North,Business
+ORD0332,2024-02-25,CUST762,Laptop,Electronics,335.76,6,0.19,4.34,North,Consumer
+ORD0333,2023-06-24,CUST807,Table,Furniture,325.64,8,0.1,42.68,East,Business
+ORD0334,2024-10-13,CUST496,Jacket,Clothing,51.9,9,0.13,-4.07,South,Home Office
+ORD0335,2023-12-23,CUST536,Shirt,Clothing,192.06,2,0.24,4.58,West,Home Office
+ORD0336,2023-03-11,CUST775,Smartphone,Electronics,189.9,7,0.2,-28.19,South,Business
+ORD0337,2024-04-04,CUST756,Shirt,Clothing,141.49,2,0.3,-35.1,South,Consumer
+ORD0338,2024-09-09,CUST196,Jeans,Clothing,481.69,4,0.24,-82.76,East,Business
+ORD0339,2024-11-05,CUST296,Notebook,Office Supplies,417.59,8,0.23,-62.52,North,Consumer
+ORD0340,2024-10-26,CUST295,Smartphone,Electronics,329.48,5,0.08,48.85,North,Business
+ORD0341,2023-05-15,CUST957,Laptop,Electronics,359.1,4,0.23,-14.5,North,Business
+ORD0342,2024-04-23,CUST147,Headphones,Electronics,68.3,3,0.17,-8.1,South,Home Office
+ORD0343,2024-08-12,CUST994,Notebook,Office Supplies,326.34,4,0.28,-47.14,West,Consumer
+ORD0344,2024-04-07,CUST327,Printer,Office Supplies,213.33,8,0.16,-15.91,West,Consumer
+ORD0345,2024-07-25,CUST699,Printer,Office Supplies,359.55,1,0.1,60.43,South,Business
+ORD0346,2023-04-03,CUST311,Pen,Office Supplies,53.24,1,0.15,0.64,North,Consumer
+ORD0347,2023-01-10,CUST656,Pen,Office Supplies,295.11,7,0.05,25.47,North,Business
+ORD0348,2023-09-17,CUST645,Bookshelf,Furniture,447.25,9,0.04,8.38,South,Business
+ORD0349,2024-04-20,CUST390,Laptop,Electronics,359.05,3,0.1,37.14,North,Business
+ORD0350,2023-01-01,CUST640,Bookshelf,Furniture,368.02,9,0.1,30.43,West,Business
+ORD0351,2023-05-03,CUST998,Notebook,Office Supplies,166.9,2,0.3,-6.5,East,Home Office
+ORD0352,2023-04-30,CUST792,Table,Furniture,400.88,4,0.3,-51.26,West,Home Office
+ORD0353,2023-08-02,CUST664,Smartphone,Electronics,364.73,9,0.27,-8.39,East,Consumer
+ORD0354,2024-06-01,CUST229,Jeans,Clothing,113.32,3,0.03,19.15,North,Consumer
+ORD0355,2023-11-01,CUST245,Pen,Office Supplies,361.73,6,0.25,9.15,East,Business
+ORD0356,2024-06-28,CUST959,Bookshelf,Furniture,423.57,1,0.0,27.57,East,Consumer
+ORD0357,2024-02-23,CUST318,Jeans,Clothing,374.72,9,0.27,-60.14,East,Business
+ORD0358,2024-12-14,CUST496,Notebook,Office Supplies,196.62,7,0.07,12.03,South,Business
+ORD0359,2024-07-07,CUST166,Table,Furniture,479.6,6,0.26,-89.99,South,Home Office
+ORD0360,2024-03-17,CUST539,Chair,Furniture,105.28,8,0.11,9.51,West,Home Office
+ORD0361,2024-02-20,CUST452,Printer,Office Supplies,274.63,7,0.25,-5.06,South,Consumer
+ORD0362,2023-03-28,CUST441,Jacket,Clothing,300.68,10,0.07,59.17,North,Home Office
+ORD0363,2024-04-07,CUST837,Bookshelf,Furniture,76.15,6,0.21,-10.38,North,Home Office
+ORD0364,2024-07-08,CUST839,Table,Furniture,56.58,6,0.14,7.9,West,Home Office
+ORD0365,2024-12-03,CUST890,Chair,Furniture,165.35,1,0.24,8.49,West,Home Office
+ORD0366,2023-01-15,CUST757,Table,Furniture,310.64,7,0.28,-64.39,West,Home Office
+ORD0367,2023-12-13,CUST323,Smartphone,Electronics,448.62,7,0.27,-38.67,South,Business
+ORD0368,2024-11-24,CUST358,Jeans,Clothing,410.55,6,0.01,69.37,South,Home Office
+ORD0369,2024-09-07,CUST982,Pen,Office Supplies,209.69,7,0.16,8.86,South,Consumer
+ORD0370,2024-02-15,CUST431,Smartphone,Electronics,292.73,10,0.1,25.5,West,Business
+ORD0371,2023-03-02,CUST515,Notebook,Office Supplies,81.3,7,0.27,-6.49,South,Home Office
+ORD0372,2024-11-10,CUST987,Table,Furniture,466.23,7,0.01,119.32,South,Consumer
+ORD0373,2023-07-19,CUST646,Bookshelf,Furniture,420.02,9,0.01,17.52,South,Consumer
+ORD0374,2023-02-11,CUST706,Jeans,Clothing,458.19,3,0.25,-29.41,South,Consumer
+ORD0375,2024-04-08,CUST974,Notebook,Office Supplies,378.98,2,0.04,75.52,West,Home Office
+ORD0376,2023-10-08,CUST761,Smartphone,Electronics,199.77,3,0.24,-6.2,South,Business
+ORD0377,2024-07-01,CUST448,Pen,Office Supplies,270.81,2,0.09,40.25,East,Home Office
+ORD0378,2023-08-27,CUST959,Table,Furniture,387.7,5,0.01,57.66,East,Consumer
+ORD0379,2024-05-25,CUST358,Laptop,Electronics,449.31,9,0.29,-48.31,West,Business
+ORD0380,2023-03-19,CUST750,Smartphone,Electronics,358.59,1,0.02,13.61,West,Consumer
+ORD0381,2023-12-10,CUST509,Table,Furniture,68.58,9,0.03,9.82,North,Home Office
+ORD0382,2023-04-02,CUST242,Headphones,Electronics,317.14,3,0.08,18.34,South,Consumer
+ORD0383,2023-03-09,CUST879,Notebook,Office Supplies,360.67,10,0.18,-28.36,North,Consumer
+ORD0384,2024-09-11,CUST864,Smartphone,Electronics,50.43,9,0.09,-1.1,East,Home Office
+ORD0385,2024-06-06,CUST248,Jacket,Clothing,120.04,4,0.26,-20.97,North,Home Office
+ORD0386,2023-02-11,CUST341,Shirt,Clothing,52.7,6,0.07,8.6,West,Business
+ORD0387,2023-01-19,CUST298,Chair,Furniture,185.86,3,0.13,-8.19,West,Home Office
+ORD0388,2023-06-17,CUST474,Headphones,Electronics,442.33,10,0.04,105.01,North,Business
+ORD0389,2023-05-05,CUST529,Printer,Office Supplies,423.04,9,0.28,-95.36,North,Home Office
+ORD0390,2024-03-21,CUST591,Chair,Furniture,382.77,4,0.19,-0.15,East,Home Office
+ORD0391,2023-08-31,CUST599,Smartphone,Electronics,196.12,10,0.15,-18.33,South,Home Office
+ORD0392,2024-05-22,CUST857,Smartphone,Electronics,307.14,4,0.03,17.93,North,Home Office
+ORD0393,2024-12-04,CUST895,Jeans,Clothing,325.83,2,0.13,30.99,North,Business
+ORD0394,2024-07-23,CUST738,Laptop,Electronics,381.33,7,0.01,61.15,East,Consumer
+ORD0395,2024-03-11,CUST278,Jacket,Clothing,148.62,7,0.12,11.79,East,Business
+ORD0396,2023-01-20,CUST968,Jeans,Clothing,180.0,9,0.07,13.99,South,Consumer
+ORD0397,2024-08-18,CUST731,Shirt,Clothing,375.84,5,0.14,48.26,North,Home Office
+ORD0398,2023-07-10,CUST438,Smartphone,Electronics,100.08,1,0.18,9.02,East,Business
+ORD0399,2023-05-06,CUST808,Bookshelf,Furniture,173.54,4,0.05,9.07,South,Consumer
+ORD0400,2023-09-14,CUST316,Headphones,Electronics,364.94,8,0.12,57.86,North,Home Office
+ORD0401,2024-10-27,CUST791,Table,Furniture,106.99,2,0.15,16.0,West,Home Office
+ORD0402,2024-12-05,CUST340,Table,Furniture,126.6,1,0.05,16.77,North,Home Office
+ORD0403,2024-07-18,CUST674,Notebook,Office Supplies,305.78,9,0.03,29.88,North,Consumer
+ORD0404,2023-08-07,CUST904,Jeans,Clothing,158.2,5,0.29,-13.92,North,Business
+ORD0405,2024-10-02,CUST620,Table,Furniture,131.25,1,0.05,11.34,East,Business
+ORD0406,2023-09-26,CUST652,Notebook,Office Supplies,125.32,3,0.02,9.43,North,Home Office
+ORD0407,2024-03-26,CUST553,Shirt,Clothing,390.36,4,0.29,-85.25,East,Home Office
+ORD0408,2023-10-30,CUST872,Headphones,Electronics,280.41,9,0.01,52.42,North,Business
+ORD0409,2023-05-09,CUST884,Headphones,Electronics,260.51,9,0.08,-1.35,South,Home Office
+ORD0410,2023-07-14,CUST235,Chair,Furniture,246.37,7,0.09,21.99,West,Home Office
+ORD0411,2023-03-03,CUST559,Printer,Office Supplies,88.31,8,0.14,5.22,East,Business
+ORD0412,2024-03-06,CUST186,Notebook,Office Supplies,262.18,8,0.12,35.91,North,Home Office
+ORD0413,2023-02-06,CUST480,Shirt,Clothing,192.99,5,0.29,-16.18,East,Consumer
+ORD0414,2023-08-09,CUST173,Shirt,Clothing,242.39,2,0.13,-11.41,North,Home Office
+ORD0415,2023-11-25,CUST584,Printer,Office Supplies,256.49,1,0.0,19.63,East,Home Office
+ORD0416,2024-05-13,CUST678,Jacket,Clothing,375.09,9,0.1,4.95,North,Home Office
+ORD0417,2024-04-27,CUST400,Pen,Office Supplies,96.47,9,0.27,0.97,South,Business
+ORD0418,2024-02-12,CUST178,Headphones,Electronics,148.66,6,0.02,25.59,East,Home Office
+ORD0419,2023-03-12,CUST504,Jeans,Clothing,76.37,9,0.16,-1.06,North,Consumer
+ORD0420,2024-09-03,CUST652,Jacket,Clothing,397.66,6,0.07,47.8,South,Business
+ORD0421,2023-11-19,CUST512,Headphones,Electronics,286.28,3,0.25,2.97,East,Home Office
+ORD0422,2024-11-03,CUST146,Shirt,Clothing,71.15,3,0.07,2.25,East,Home Office
+ORD0423,2024-02-04,CUST391,Notebook,Office Supplies,462.05,10,0.01,41.47,East,Consumer
+ORD0424,2023-06-19,CUST851,Printer,Office Supplies,444.81,10,0.12,62.61,South,Home Office
+ORD0425,2024-12-10,CUST345,Printer,Office Supplies,51.15,9,0.15,-0.39,North,Consumer
+ORD0426,2023-02-21,CUST994,Shirt,Clothing,410.51,6,0.1,-4.71,West,Home Office
+ORD0427,2023-06-08,CUST505,Table,Furniture,204.36,9,0.15,4.07,East,Consumer
+ORD0428,2023-01-29,CUST429,Chair,Furniture,335.47,1,0.15,-5.17,East,Business
+ORD0429,2023-02-20,CUST604,Shirt,Clothing,59.22,3,0.08,11.39,North,Business
+ORD0430,2023-10-17,CUST614,Table,Furniture,188.04,5,0.2,9.5,West,Home Office
+ORD0431,2023-04-16,CUST739,Headphones,Electronics,257.05,5,0.02,43.42,South,Business
+ORD0432,2023-09-21,CUST147,Notebook,Office Supplies,466.41,5,0.19,-46.01,East,Consumer
+ORD0433,2023-08-20,CUST814,Notebook,Office Supplies,296.68,1,0.27,-32.06,North,Home Office
+ORD0434,2024-11-16,CUST859,Jacket,Clothing,242.72,9,0.26,-33.5,East,Consumer
+ORD0435,2023-05-21,CUST949,Printer,Office Supplies,175.42,9,0.01,33.11,South,Home Office
+ORD0436,2024-09-19,CUST216,Chair,Furniture,355.82,10,0.14,-27.98,West,Home Office
+ORD0437,2024-11-30,CUST308,Headphones,Electronics,464.12,5,0.17,47.91,North,Home Office
+ORD0438,2024-07-10,CUST604,Headphones,Electronics,207.71,6,0.03,8.46,South,Home Office
+ORD0439,2024-06-07,CUST713,Headphones,Electronics,105.1,5,0.0,30.57,East,Home Office
+ORD0440,2024-11-18,CUST292,Bookshelf,Furniture,405.69,9,0.11,32.25,South,Home Office
+ORD0441,2023-04-03,CUST681,Headphones,Electronics,80.71,6,0.12,14.49,West,Consumer
+ORD0442,2024-11-15,CUST582,Notebook,Office Supplies,402.55,9,0.0,86.97,East,Home Office
+ORD0443,2023-06-09,CUST198,Bookshelf,Furniture,221.36,7,0.25,-4.35,West,Home Office
+ORD0444,2024-01-11,CUST761,Pen,Office Supplies,453.15,6,0.13,-10.44,West,Home Office
+ORD0445,2024-06-14,CUST156,Jeans,Clothing,425.03,5,0.2,13.67,East,Business
+ORD0446,2023-10-01,CUST674,Notebook,Office Supplies,107.77,2,0.04,7.53,North,Business
+ORD0447,2023-02-02,CUST558,Jeans,Clothing,67.76,1,0.28,-0.51,West,Business
+ORD0448,2023-06-24,CUST781,Shirt,Clothing,369.95,2,0.18,-29.29,South,Business
+ORD0449,2024-06-03,CUST649,Table,Furniture,205.38,5,0.29,-9.02,West,Consumer
+ORD0450,2023-04-12,CUST670,Headphones,Electronics,442.02,9,0.03,85.79,West,Business
+ORD0451,2023-07-18,CUST365,Printer,Office Supplies,82.41,6,0.05,5.02,North,Home Office
+ORD0452,2023-04-19,CUST729,Laptop,Electronics,293.68,7,0.29,-10.7,East,Business
+ORD0453,2023-07-07,CUST784,Smartphone,Electronics,240.68,10,0.08,4.11,North,Consumer
+ORD0454,2024-09-11,CUST256,Table,Furniture,247.47,8,0.11,12.17,North,Consumer
+ORD0455,2023-06-17,CUST360,Headphones,Electronics,437.18,3,0.12,56.12,East,Business
+ORD0456,2023-12-20,CUST306,Shirt,Clothing,301.43,2,0.14,0.79,North,Business
+ORD0457,2024-07-22,CUST395,Shirt,Clothing,364.93,7,0.07,36.15,South,Business
+ORD0458,2023-06-20,CUST950,Printer,Office Supplies,441.27,4,0.17,-24.91,North,Business
+ORD0459,2023-10-18,CUST752,Smartphone,Electronics,337.38,9,0.15,-33.14,North,Consumer
+ORD0460,2024-05-22,CUST798,Table,Furniture,296.57,8,0.28,-34.59,West,Consumer
+ORD0461,2023-07-16,CUST187,Bookshelf,Furniture,488.04,2,0.21,39.16,East,Consumer
+ORD0462,2024-05-07,CUST438,Chair,Furniture,388.32,4,0.11,-15.75,West,Home Office
+ORD0463,2024-11-25,CUST858,Jeans,Clothing,228.42,9,0.26,0.63,South,Business
+ORD0464,2023-08-15,CUST183,Chair,Furniture,187.16,9,0.06,25.78,West,Business
+ORD0465,2024-11-23,CUST150,Smartphone,Electronics,473.69,10,0.13,-29.93,West,Business
+ORD0466,2023-08-13,CUST936,Chair,Furniture,454.69,2,0.28,-80.04,North,Home Office
+ORD0467,2023-03-09,CUST389,Laptop,Electronics,461.73,1,0.18,-19.81,East,Consumer
+ORD0468,2024-11-23,CUST268,Printer,Office Supplies,200.96,1,0.22,-29.06,South,Home Office
+ORD0469,2024-05-24,CUST205,Printer,Office Supplies,168.32,7,0.08,3.31,West,Consumer
+ORD0470,2023-03-07,CUST370,Smartphone,Electronics,138.15,2,0.27,-27.53,West,Consumer
+ORD0471,2023-05-07,CUST109,Pen,Office Supplies,183.43,7,0.29,-9.97,East,Consumer
+ORD0472,2024-01-29,CUST187,Jacket,Clothing,156.16,10,0.07,22.73,South,Business
+ORD0473,2024-12-17,CUST423,Laptop,Electronics,126.43,8,0.06,19.07,South,Consumer
+ORD0474,2023-01-11,CUST978,Notebook,Office Supplies,118.9,7,0.13,16.69,East,Consumer
+ORD0475,2023-08-17,CUST620,Chair,Furniture,277.91,1,0.08,30.73,North,Consumer
+ORD0476,2024-02-07,CUST379,Chair,Furniture,422.25,6,0.14,58.19,East,Home Office
+ORD0477,2024-04-16,CUST752,Smartphone,Electronics,357.12,10,0.01,31.88,North,Business
+ORD0478,2024-05-09,CUST935,Laptop,Electronics,334.56,10,0.18,-23.28,North,Home Office
+ORD0479,2024-12-26,CUST123,Chair,Furniture,491.25,3,0.13,-25.42,North,Consumer
+ORD0480,2024-01-09,CUST456,Notebook,Office Supplies,208.08,9,0.01,37.88,East,Home Office
+ORD0481,2023-07-19,CUST488,Chair,Furniture,265.33,5,0.19,23.41,West,Consumer
+ORD0482,2024-04-13,CUST145,Notebook,Office Supplies,478.95,6,0.29,-54.22,East,Consumer
+ORD0483,2023-02-13,CUST599,Jacket,Clothing,223.62,9,0.26,-38.6,East,Business
+ORD0484,2023-03-03,CUST790,Shirt,Clothing,146.49,5,0.11,7.98,West,Home Office
+ORD0485,2023-09-08,CUST210,Bookshelf,Furniture,322.6,5,0.04,67.8,South,Business
+ORD0486,2024-11-16,CUST952,Pen,Office Supplies,327.13,8,0.21,28.7,South,Consumer
+ORD0487,2024-11-11,CUST144,Bookshelf,Furniture,355.85,4,0.12,8.02,East,Business
+ORD0488,2023-05-24,CUST669,Headphones,Electronics,296.38,2,0.22,-18.76,South,Consumer
+ORD0489,2024-07-28,CUST181,Jacket,Clothing,119.92,7,0.06,-0.3,East,Business
+ORD0490,2024-03-20,CUST592,Bookshelf,Furniture,468.15,10,0.01,43.88,East,Business
+ORD0491,2024-01-03,CUST652,Printer,Office Supplies,222.91,3,0.21,11.58,West,Consumer
+ORD0492,2023-05-15,CUST508,Laptop,Electronics,302.99,1,0.19,28.68,North,Business
+ORD0493,2023-03-12,CUST929,Jeans,Clothing,266.24,3,0.1,51.17,West,Business
+ORD0494,2023-07-26,CUST758,Headphones,Electronics,353.96,7,0.02,67.67,South,Home Office
+ORD0495,2023-06-07,CUST442,Table,Furniture,264.3,1,0.07,31.31,East,Home Office
+ORD0496,2023-06-29,CUST716,Table,Furniture,445.64,10,0.26,-79.7,North,Business
+ORD0497,2024-05-09,CUST287,Notebook,Office Supplies,485.59,8,0.22,10.35,South,Business
+ORD0498,2023-07-08,CUST298,Table,Furniture,397.14,9,0.06,27.81,West,Home Office
+ORD0499,2023-07-23,CUST928,Jeans,Clothing,368.29,1,0.27,-42.65,East,Home Office
+ORD0500,2024-10-20,CUST742,Bookshelf,Furniture,128.25,7,0.17,-2.75,West,Business

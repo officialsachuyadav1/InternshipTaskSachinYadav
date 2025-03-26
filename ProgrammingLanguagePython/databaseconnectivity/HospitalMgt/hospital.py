@@ -690,3 +690,17 @@ options()
 
         
         
+
+
+class Animal:
+    def sound(self):
+        pass  # Placeholder method, doesn't do anything yet
+
+# Create an instance of Animal
+animal = Animal()
+
+# Calling the method doesn't do anything for now
+animal.sound()
+
+
+
